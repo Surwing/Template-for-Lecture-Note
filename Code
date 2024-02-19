@@ -1,0 +1,89 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+
+
+\title{Lecture Note}
+\author{Louis Wong}
+\date{December 2023}
+
+
+\usepackage{alltt}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amsopn}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{mathdots}
+\usepackage{mathtools}
+\usepackage{microtype}
+\usepackage{multirow}
+\usepackage{pdflscape}
+\usepackage{pgfplots}
+\usepackage{siunitx}
+\usepackage{slashed}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{tkz-euclide}
+\usepackage[normalem]{ulem}
+\usepackage[all]{xy}
+\usepackage{imakeidx}
+\usepackage[backend=bibtex]{biblatex}
+
+\makeindex[intoc, title=Index]
+\indexsetup{othercode={\lhead{\emph{Index}}}}
+
+
+
+% Theorems
+\theoremstyle{definition}
+\newtheorem*{axiom}{Axiom}
+\newtheorem*{claim}{Claim}
+\newtheorem*{cor}{Corollary}
+\newtheorem*{conjecture}{Conjecture}
+\newtheorem*{defi}{Definition}
+\newtheorem*{eg}{Example}
+\newtheorem*{ex}{Exercise}
+\newtheorem*{fact}{Fact}
+\newtheorem*{lemma}{Lemma}
+\newtheorem*{notation}{Notation}
+\newtheorem*{prop}{Proposition}
+\newtheorem*{question}{Question}
+\newtheorem*{thm}{Theorem}
+\newtheorem*{assumption}{Assumption}
+\newtheorem*{ppt}{Property}
+\newtheorem{so}{Solution}
+
+\newtheorem*{rmk}{Remark}
+\newtheorem*{exercise}{Exercise}
+
+\newtheorem{nthm}{Theorem}[section]
+\newtheorem{nlemma}[nthm]{Lemma}
+\newtheorem{nprop}[nthm]{Proposition}
+\newtheorem{ncor}[nthm]{Corollary}
+
+
+\renewcommand{\labelitemi}{--}
+\renewcommand{\labelitemii}{$\circ$}
+\renewcommand{\labelenumi}{(\roman{*})}
+
+\let\stdsection\section
+\renewcommand\section{\newpage\stdsection}
+
+\newcommand\qedsym{\hfill\ensuremath{\square}}
+% Strike through
+\def\st{\bgroup \ULdepth=-.55ex \ULset}
+
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+\section{Introduction}
+\pagenumbering{roman}
+
+\end{document}
