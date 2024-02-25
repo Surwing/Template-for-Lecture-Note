@@ -33,10 +33,13 @@
 \usepackage[all]{xy}
 \usepackage{imakeidx}
 \usepackage[backend=bibtex]{biblatex}
+\usepackage[T1]{fontenc}
+\usepackage[math]{anttor}
+\usepackage{esint}
 
 \makeindex[intoc, title=Index]
 \indexsetup{othercode={\lhead{\emph{Index}}}}
-
+\linespread{0.8}
 
 
 % Theorems
